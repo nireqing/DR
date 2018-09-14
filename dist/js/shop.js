@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","header","footer","shop"],function(i,n,e,t){i(function(){n.init(),e.init(),t.init()})})});

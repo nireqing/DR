@@ -1,0 +1,9 @@
+require(["config"],function(){
+	require(["jquery","footer","denglu","placeholder","fc"],function($,footer,denglu,placeholder,fc){
+			$(function(){
+				footer.init();
+				denglu.init();
+				placeholder.init();
+			});
+		});
+});

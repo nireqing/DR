@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","url","header","footer","banner","cookie","indexx","placeholder"],function(i,e,n,r,t,o,u,c){n.init(),r.init(),t.init(),u.init(),c.init()})});

@@ -1,0 +1,121 @@
+@import "reset";
+@import "header";
+@import "footer";
+/**导航**/
+.banner{margin: 0 auto;
+  width: 100%;height: 620px;overflow:hidden; position:relative;
+  ul{position:absolute;left: 0;top: 0;
+    li{height:620px;float: left;}
+  }
+  ol{position:absolute;bottom:10px;left: 47%;
+    li{ width: 20px;height: 20px;line-height: 20px;background:url(/images/banner_button.png) no-repeat;
+    float: left;}
+    
+  }
+#goPrev{left:0;top:263px;position:absolute;display:inline-block;width:23px;height:45px;
+background:url(/images/icon_banner.png) no-repeat;background-position:0px 0px;}
+#goNext{right: 0;top:263px;position:absolute;display:inline-block;width:23px;height:45px;
+background:url(/images/icon_banner.png) no-repeat;background-position:-26px 0px;} 
+}
+/**唯一身份证**/
+.shenfen{margin:0 auto;width: 98%;height: 505px;padding-top: 42px;background-color:white;
+  .shenfen_wrap{width: 100%;height: 464px;background-color: #f5f1ee;
+    >img{width: 626px;height: 464px;float: left;}
+    .shenfen_right{float: right;width: 585px;height: 464px;text-align:center;
+      >h2,h3,h4,h5{font-size: 16px;color: #493428;text-align: center;font-weight: normal;line-height: 30px;}
+      >p{display: inline-block;width: 106px;height: 106px;background: url(/images/logo_noword.png) no-repeat;
+      margin-top: 55px;margin-bottom: 30px;}
+      >form{position: relative;
+        >input{
+          width:286px;
+          height:46px;
+          background-color:#8b776c;
+          outline: none;
+          border: none;
+          font-size: 13px;
+          color: #c9c0bb;
+          text-align: center;}
+        >i{
+          display: block;
+          width: 46px;
+          height: 46px;
+          position: absolute;
+          top:12px;
+          right: 138px;
+          background: url(/images/shenfen_serch.png) no-repeat;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+/**钻戒**/
+.zuanjie{width: 100%;height: 1027px;background-color: white;padding-left:13px;
+  .zuanjie_wrap{width: 98%;height: 972px;margin-top:40px;
+      /**左半边**/
+      .zuanjie_left{float: left;width: 630px;height: 970px;text-decoration:none;
+        a:nth-child(1){width: 650px;height: 622px;display: inline-block;color:#333333;
+        position: relative;
+          span{position: absolute;left:40px;bottom:44px;}
+          .jie1{width: 630px;height: 622px;overflow: hidden;
+            & img{width: 630px;height: 622px;transition:all 1s;}
+            &:hover img{transform: scale(1.1);}}
+        }
+        a:nth-of-type(2){width: 630px;height: 330px;display: inline-block;color:#333333;
+          position: relative;
+          span{position: absolute;right:40px;bottom:44px;}
+          .jie3{width: 630px;height: 330px;margin-top: 12px;overflow: hidden;
+            & img{width: 630px;height: 330px;transition:all 1s;}
+            &:hover img{transform: scale(1.1);}}
+          
+        }
+      }
+      /**右半边**/
+      .zuanjie_right{float: right;width: 580px;height: 970px;text-decoration:none;
+        a:nth-child(1){width: 590px;height: 384px;display: inline-block;color:#333333;
+          position: relative;
+          span{position: absolute;right:40px;bottom:44px;}
+          .jie2{width: 580px;height: 384px;overflow: hidden;
+            & img{width: 580px;height: 384px;transition:all 1s;}
+            &:hover img{transform: scale(1.1);} }
+        }
+        a:nth-child(2){width: 580px;height: 568px;display: inline-block;color:#333333;
+          position: relative;
+          span{position: absolute;right:40px;bottom:44px;}
+          .jie4{width: 580px;height: 568px;margin-top: 12px;overflow: hidden;
+            & img{width: 580px;height: 568px;transition:all 1s;}
+            &:hover img{transform: scale(1.1);} }
+          }
+      }
+  }
+}
+/**gift**/
+.gift{width: 100%;height: 504px;background-color:#ded8d2;
+  img{width: 808px;height: 504px;float: left;}
+  .gift_right{float: right;width: 454px;height: 464px;text-align:center;
+    p{display: inline-block;width: 106px;height: 106px;
+    background: url(/images/logo_noword.png) no-repeat;
+    margin-top: 55px;margin-bottom: 30px;}
+    form{position: relative;
+      input:nth-child(1){border: none;text-align: center;color: #b7aba3;
+      width: 365px;height: 40px;outline: none;
+      background-color: #8b776c;}
+      input:nth-child(2){border: none;text-align: center;color: #b7aba3;
+        width: 365px;height: 40px;margin-top: 30px;outline: none;
+        background-color: #eee8e2;}
+    }
+  }
+}
+/**story**/
+.story{
+width: 100%;height: 410px;padding-top: 15px;
+display: flex;flex-direction: row;justify-content: space-between;
+  dl{position: relative;
+    &:nth-child(1) dt{width: 392px;height: 392px;background: url(/images/story1.jpg) no-repeat;}
+    &:nth-child(2) dt{width: 392px;height: 392px;background: url(/images/story2.jpg) no-repeat;}
+    &:nth-child(3) dt{width: 392px;height: 392px;background: url(/images/story3.jpg) no-repeat;}
+    dd{position: absolute;color: white;left: 170px;top:190px;}
+  }
+  
+}

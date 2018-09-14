@@ -1,0 +1,1 @@
+"use strict";define(function(){function t(){}return t.prototype.init=function(t,i,s){$(t).focus(function(){$(this).val(""),$(this).removeClass(s)}),$(t).blur(function(){$(this).val(),$(t).val()==i&&$(this).removeClass(s),""==$(t).val()&&($(this).val(i),$(this).addClass(s))})},new t});

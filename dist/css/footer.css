@@ -1,0 +1,169 @@
+.footer {
+  width: 100%;
+  height: 647px;
+  background-color: #ffffff; }
+  .footer .footer_center {
+    width: 100%;
+    height: 485px;
+    margin-top: 94px;
+    background-color: #f8f8f8; }
+    .footer .footer_center .ul_wrap {
+      width: 100%;
+      height: 150px;
+      background-color: white;
+      box-shadow: #f8f8f8 2px -3px 10px 0px; }
+      .footer .footer_center .ul_wrap ul {
+        width: 916px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .footer .footer_center .ul_wrap ul li {
+          list-style: none;
+          margin-top: 30px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(1):hover i {
+            background-position: 0px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(2) i {
+            background-position: -60px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(2):hover i {
+            background-position: -60px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(3) i {
+            background-position: -120px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(3):hover i {
+            background-position: -120px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(4) i {
+            background-position: -180px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(4):hover i {
+            background-position: -180px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(5) i {
+            background-position: -240px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(5):hover i {
+            background-position: -240px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(6) i {
+            background-position: -300px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(6):hover i {
+            background-position: -300px -60px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(7) i {
+            background-position: -360px 0px; }
+          .footer .footer_center .ul_wrap ul li:nth-child(7):hover i {
+            background-position: -360px -60px; }
+          .footer .footer_center .ul_wrap ul li i {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: url(../images/icon_footer.png) no-repeat; }
+          .footer .footer_center .ul_wrap ul li a {
+            text-align: center;
+            text-decoration: none;
+            color: #666;
+            font-size: 14px;
+            width: 70px;
+            height: 90px;
+            display: inline-block; }
+            .footer .footer_center .ul_wrap ul li a span {
+              display: inline-block; }
+    .footer .footer_center .footer_center_center {
+      width: 100%;
+      padding-top: 56px; }
+      .footer .footer_center .footer_center_center .footer_center_wrap {
+        width: 944px;
+        height: 102px;
+        margin: 0 auto; }
+        .footer .footer_center .footer_center_center .footer_center_wrap dl {
+          float: left;
+          width: 155px;
+          height: 102px;
+          text-align: center;
+          background: url(../images/footerborder.png) no-repeat right;
+          font-size: 12px;
+          line-height: 22px; }
+          .footer .footer_center .footer_center_center .footer_center_wrap dl a {
+            text-decoration: none;
+            color: #666666; }
+          .footer .footer_center .footer_center_center .footer_center_wrap dl:nth-last-child(1) {
+            background: none; }
+          .footer .footer_center .footer_center_center .footer_center_wrap dl dt {
+            margin-top: 12px;
+            font-weight: bolder; }
+          .footer .footer_center .footer_center_center .footer_center_wrap dl ul li {
+            list-style: none;
+            text-align: center; }
+    .footer .footer_center .footer_footer_wrap {
+      width: 385px;
+      height: 105px;
+      margin: 0 auto;
+      margin-top: 30px; }
+      .footer .footer_center .footer_footer_wrap h2 {
+        font-size: 12px;
+        margin: 0 162px;
+        display: inline-block;
+        width: 58px;
+        height: 14px;
+        color: #666666; }
+      .footer .footer_center .footer_footer_wrap h3 {
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 14px; }
+      .footer .footer_center .footer_footer_wrap p {
+        width: 120px;
+        height: 46px;
+        margin: 0 130px;
+        margin-top: 7px; }
+        .footer .footer_center .footer_footer_wrap p span {
+          width: 44px;
+          height: 44px;
+          display: inline-block;
+          background: url(../images/share.png) no-repeat; }
+          .footer .footer_center .footer_footer_wrap p span:nth-child(1) {
+            float: left;
+            background-position: 0px 0px; }
+          .footer .footer_center .footer_footer_wrap p span:nth-child(1):hover {
+            float: left;
+            background-position: 0px -53px; }
+          .footer .footer_center .footer_footer_wrap p span:nth-child(2) {
+            float: right;
+            background-position: -44px 0px; }
+          .footer .footer_center .footer_footer_wrap p span:nth-child(2):hover {
+            float: right;
+            background-position: -44px -53px; }
+  .footer .footer_bottom {
+    width: 100%;
+    height: 70px;
+    background-color: #868686; }
+    .footer .footer_bottom ol {
+      width: 300px;
+      height: 14px;
+      float: left;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 10px; }
+      .footer .footer_bottom ol a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #c5c5c5; }
+    .footer .footer_bottom .footer_bottom_right {
+      width: 885px;
+      height: 48px;
+      float: right;
+      margin-top: 13px;
+      margin-right: 10px; }
+      .footer .footer_bottom .footer_bottom_right span {
+        display: inline-block;
+        width: 26px;
+        height: 48px;
+        float: left;
+        background: url(../images/hui.png) no-repeat;
+        background-position: 3px 15px; }
+      .footer .footer_bottom .footer_bottom_right b {
+        font-size: 12px;
+        color: #c5c5c5;
+        font-weight: normal;
+        line-height: 48px; }
+      .footer .footer_bottom .footer_bottom_right i {
+        display: inline-block;
+        float: right;
+        width: 130px;
+        height: 48px;
+        background: url(../images/kexin.png) no-repeat; }

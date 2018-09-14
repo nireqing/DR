@@ -1,0 +1,310 @@
+@import "reset";
+@import "footer";
+
+/**顶部**/
+.header{
+  width: 100%;
+  height: 82px;
+    .car_header_wrap{border-bottom: 1px solid #666666;
+      margin: 0 auto;
+      height: 82px;
+      width: 98%;
+        >h2{
+          display: block;
+          float: left;
+          width: 64px;
+          height: 60px;
+          background: url(/images/logo.png) no-repeat;
+          background-size: contain;
+          margin-top: 12px;
+          margin-left: 16px;
+        }
+        >ul{
+          display: block;
+          float: right;
+          width: 200px;
+          height: 20px;
+          margin-top: 35px;
+            li{float: left;list-style: none;padding:0 6px;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              font-size: 12px;
+              color: #8d8d8d;
+                &:nth-child(1){ background: url(/images/phone.png) no-repeat 5px 1px;padding-left:22px;
+                }
+            }
+
+        }
+    }
+}
+/**进度**/
+.car_jindu{
+  width: 100%;
+  height: 173px;
+    .jindu_wrap{
+      width: 98%;
+      margin: 0 auto;
+      height: 106px;
+        >h3{
+          display: block;
+          width: 80px;
+          line-height: 80px;
+          height: 106px;
+          float: left;
+          color: #a89891;
+          font-size: 18px;
+          font-weight: normal;
+            >span{color: #333333;}
+        }
+        >h4{
+          display: block;
+          float: right;
+          margin-top: 33px;
+          width: 597px;
+          height: 46px;
+          background: url(/images/jindu.png) no-repeat;
+        }
+    }
+    .car_nav{border: 1px solid #e0e0e0;
+      background-color: #f3f3f3;
+      display: block;
+      margin: 0 auto;
+      width: 98%;
+      height: 48px;
+      line-height: 48px;
+      font-size: 12px;
+      color: #666666;
+        >li{
+          float: left;
+          display: block;
+          text-align: center;
+        }
+        >li:nth-child(1){
+          margin-left: 19px;
+        }
+        >li:nth-child(2){
+          width: 26px;
+          height: 48px;
+          margin-left: 6px;
+            // >input{height: 10px;}
+        }
+        >li:nth-child(3){
+          margin-left: 18px;
+          width: 357px;
+          height: 48px;
+        }
+        >li:nth-child(4){
+          margin-left: 447px;
+          width: 178px;
+          height: 48px;
+        }
+        >li:nth-child(5){
+          width: 157px;
+          height: 48px;
+        }
+    }
+}
+/**ring_car**/
+.ring_car_wrap{
+  min-height: 273px;
+  width: 100%;
+    .ring_car{
+      width: 98%;
+      min-height: 150px;
+      margin: 0 auto;
+        .ringring{border: 1px solid #e0e0e0;
+          margin: 0 auto;
+          margin-top: 20px;
+          height: 152px;
+          background-color: #fcfcfc;
+            >input{
+              float: left;
+              height: 136px;
+              margin-left: 16px;
+            }
+            .ring_data{
+              height: 152px;
+              width: 95%;
+              margin-left: 53px;
+                >img{
+                  float: left;
+                  width: 100px;
+                  height: 100px;
+                  margin-top: 17px;
+                }
+                .ring_right{
+                  position: relative;
+                  margin-left: 25px;
+                  float: right;
+                  width: 1040px;
+                  height: 152px;
+                  >p:nth-child(1){border-bottom: 1px dashed #e0e0e0;
+                    width: 1040px;
+                    height: 90px;
+                      >em,i,b{
+                        font-size: 12px;
+                        line-height: 90px;
+                        font-style: normal;
+                        font-weight: normal;
+                      }
+                      >em{
+                        color: #8b766c;
+                        font-weight: bolder;
+                      }
+                      >i{
+                        color: #666666;
+                        margin-left: 24px;
+                      }
+                      >b{
+                        margin-left: 516px;
+                        font-weight: bolder;
+                        color: #ff5d5b;
+                      }
+                      >span{display: block;
+                        position: absolute;
+                        font-size: 12px;
+                        color: #8b766c;
+                      }
+                      >span:nth-of-type(1){
+                        top:25px;
+                        right: 48px;
+                      }
+                      
+                      >span:nth-of-type(2){
+                        top:48px;
+                        right: 70px;
+                      }
+                  }
+                  >p:nth-child(2){
+                    width: 1040px;
+                    height: 60px;
+                      >em,i,{
+                        font-size: 12px;
+                        line-height: 60px;
+                        font-style: normal;
+                        font-weight: normal;
+                      }
+                      >em{
+                        color: #666666;
+                        font-weight: bolder;
+                      }
+                      >i{
+                        color: #666666;
+                        margin-left: 24px;
+                      }
+                      >span{
+                        position: absolute;
+                        top:113px;
+                        right:37px;
+                        font-size: 12px;
+                        color: #8b766c;
+                      }
+                  }
+                }
+            }
+        }
+        
+    }
+    .anquan{
+      margin-left: 720px;
+      height: 50px;
+      width: 570px;
+      font-size: 12px;
+      color: #666666;
+      line-height: 50px;
+        >li{
+          float: left;
+          overflow: hidden;
+        }
+        >li:nth-child(1){
+          padding-left:27px;
+          background: url(/images/anquan.png) no-repeat 6px 16px; 
+          width: 170px;
+          height: 50px;
+        }
+        >li:nth-child(2){
+          padding-left:27px;
+          background: url(/images/anquan.png) no-repeat 6px -20px; 
+          width: 116px;
+          height: 50px;
+        }
+        >li:nth-child(3){
+          padding-left:27px;
+          background: url(/images/anquan.png) no-repeat 6px -56px; 
+          width: 245px;
+          height: 50px;
+        }
+    }
+    .jiesuan{
+      border: 1px solid #f1f1f1;
+      width:98%;
+      margin: 0 auto;
+      height: 52px;
+      background-color:#f9f9f9;
+        >input{
+          float: left;
+          height: 56px;
+          margin-left: 16px;
+        }
+        .jiesuan_ol{
+          width: 208px;
+          height: 52px;
+          line-height: 52px;
+          float: left;
+          margin-left: 4px;
+            >li{
+              float: left;
+              color: #666666;
+              font-size: 12px;
+            }
+            >li:nth-of-type(1){
+              width: 26px;
+            }
+            >li:nth-of-type(2){
+              width: 98px;
+              margin-left: 18px;
+            }
+            >li:nth-of-type(3){
+              width: 48px;
+              margin-left: 18px;
+            }
+
+        } 
+        .jiesuan_ul{
+          float: right;
+          width: 438px;
+          height: 52px;
+          line-height: 52px;
+          font-size: 12px;
+          color: #666666;
+            >li{
+              float: left;
+            }
+            >li:nth-child(1){
+              width: 76px;
+                >span{
+                  color: #ff5d5b;
+                }
+            }
+            >li:nth-child(2){
+              margin-left: 18px;
+              width: 80px;
+                >span{
+                  color: #ff5d5b;
+                }
+            }
+            >li:nth-child(3){
+              margin-left: 18px;
+              width: 38px;
+            }
+            >li:nth-child(4){
+              margin-left: 48px;
+              width: 160px;
+              background-color: #a98f83;
+              color: white;
+              text-align: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,207 @@
+@import "footer";
+@import "reset";
+@import "fc";
+
+.header{border-bottom:1px solid #666666;
+height: 82px;
+width: 100%;
+    h2{
+    display: inline-block;
+    width: 63px;
+    height: 63px;
+    margin-left:14px;
+    margin-top: 14px; 
+    background: url(/images/logo.png) no-repeat;
+    background-size: contain;
+    }
+    .header_right{
+      float: right;
+      width: 314px;
+      height: 54px;
+      color: #8d8d8d;
+      margin-top:10px; 
+        dl{
+        float: left;
+        margin-top: 16px;
+        width: 90px;
+        height: 20px;
+        background-color: #8b766c;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        line-height: 20px;          
+          dt{
+          width: 42px;
+          height: 20px;
+          float: left;
+            a{color: white;}
+          }
+          dd{
+          width: 42px;
+          height: 20px;
+          float: right;
+            a{color: white;}            
+          }
+        }
+        h3{
+        text-align: right;
+        margin-top: 18px;
+        margin-left: 7px;
+        width: 125px;
+        height: 20px;
+        font-weight: normal;
+        font-size: 12px;
+        display: inline-block;
+        background: url(/images/phone.png) no-repeat 30px 2px;padding-left:22px;
+        }
+        h4{
+        text-align: right;
+        margin-top: 18px;
+        margin-left: 7px;
+        width: 70px;
+        height: 20px;
+        font-weight: normal;
+        font-size: 12px;
+        display: inline-block;
+        }
+    }
+      
+}
+/**banner**/
+.banner{
+  width: 100%;
+  height: 566px;
+  background: url(/images/login_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  .banner_wrap{
+  width: 313px;
+  height: 372px;
+  position: absolute;
+  right: 118px;
+  top:56px;
+  background-color: white;
+  box-shadow: #ccc 0px 0px 8px 0px;
+  border-radius: 1%;
+  //注册按钮
+  .btn{
+    width: 255px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 14px;
+    margin-left: 26px;
+    margin-top: 30px;
+    padding:0;
+    background-color: #8b766c;
+    text-align: center;
+    }
+      dl{
+      width: 80px;
+      height: 64px;
+      font-size: 16px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 64px;
+      color: #9b745c;
+        dt{
+        float: left;
+        text-align: right;
+        width: 34px;
+        height: 64px;
+        line-height: 64px;
+          a{color: #9b745c;}
+        }
+        dd{
+        float: right;
+        text-align: left;
+        width: 34px;
+        height: 64px;
+        line-height: 64px;
+          a{color: #9b745c;}
+        }
+      }
+      .s1,.s2{
+      margin:0 auto;
+      width:255px;
+      height:40px;
+      border:1px solid #e6e6e6;
+      border-radius: 4%;
+        >span{
+        background:url(/images/ren.jpg) no-repeat 12px 12px;
+        width:40px;
+        height:40px;
+        float:left;
+        }
+        >input{
+        outline: none;
+        width:212px;
+        height:38px;
+        float:left;
+        font-size:12px;
+        border:none;
+        padding-left:10px;
+        }
+        >input.denglu_ccc{color:#e2e2e2;}
+      }
+      .s2{
+      margin-top: 14px;
+      span{background:url(/images/pw.png) no-repeat 12px 12px; }
+      }
+      >.s1.ccc{color:#e2e2e2;}
+      >.s2.ccc{color:#e2e2e2;}
+      h2{
+      display: inline-block;
+      height: 18px;
+      width: 255px;
+      line-height: 28px;
+      font-size: 12px;
+      color: #888888;
+      margin-left: -40px;
+        p:nth-child(1){float: left;}
+        p:nth-child(2){float: right;}
+      }
+      h3{
+      text-align: center;
+      font-size: 12px;
+      color: #888888;
+      display: inline-block;
+      height: 30px;
+      width: 313px;
+        a{color: #9b745c;text-decoration: underline;}
+      }
+      
+      i{border-bottom: 1px solid #e1e3e4;
+        display: inline-block;
+        width: 97px;
+        height: 56px;
+      }
+      i:nth-of-type(1){float: left;}
+      i:nth-of-type(2){float: right;}
+      h4{
+      display: inline-block;
+      width: 112px;
+      height: 14px;
+      margin-top: 46px;
+      font-size: 12px;
+      text-align: center;
+      color: #9b745c;
+      }
+      .san{
+      width: 170px;
+      height: 16px;
+      margin-left: 75px;
+      margin-top: 22px;
+        em{
+        display: inline-block;
+        width: 37px;
+        height: 18px;
+        }
+        em:nth-of-type(1){background: url(/images/sanfang.png) no-repeat 5px -1px;}
+        em:nth-of-type(2){background: url(/images/sanfang.png) no-repeat -39px -1px;}
+        em:nth-of-type(3){background: url(/images/sanfang.png) no-repeat -82px -1px;}
+        em:nth-of-type(4){background: url(/images/sanfang.png) no-repeat -122px -1px;}
+      }
+  }
+}

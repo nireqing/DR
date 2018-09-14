@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","url","footer","zhuce"],function(i,e,r,u){r.init(),u.init()})});

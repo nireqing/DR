@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","footer","denglu"],function(i,n,e){i(function(){n.init(),e.init()})})});
